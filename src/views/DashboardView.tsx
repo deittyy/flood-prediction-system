@@ -57,7 +57,7 @@ export default function DashboardView({ onNavigate }: Props) {
       {/* Page header */}
       <div className="flex items-start justify-between gap-4">
         <div>
-          <h1 className="text-white font-display text-2xl font-semibold">Good morning, Abubakar</h1>
+          <h1 className="text-white font-display text-2xl font-semibold">Good morning, Akintunde</h1>
           <p className="text-[#3A5A7A] text-sm mt-1 font-mono">
             {liveTime.toLocaleDateString('en-NG', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}
             {' · '}
